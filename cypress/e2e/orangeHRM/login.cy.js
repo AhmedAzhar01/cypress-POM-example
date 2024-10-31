@@ -1,12 +1,12 @@
 ///<reference types="cypress"/>
 import {TextBox} from "../../support/pages/textbox.js"
 import {CheckBox} from "../../support/pages/checkbox.js"
-import {Radiobutton} from "../../support/pages/Radiobutton.js"
 import {webtable} from "../../support/pages/webtables.js"
 import {buttons} from "../../support/pages/Buttons.js"
 import {links} from "../../support/pages/links.js"
 import {uploadanddownload} from "../../support/pages/upload&download.js"
 import {studentregistrationform} from "../../support/pages/student_registration_form.js"
+import {Radiobutton } from "../../support/pages/radiobutton.js"
 
 const tb= new TextBox()
 const cb= new CheckBox()
