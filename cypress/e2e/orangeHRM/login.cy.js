@@ -40,7 +40,7 @@ describe('OrangeHRM', ()=>{
         cy.contains('Check Box').click()
         // cy.get('.rct-icon.rct-icon-expand-close').click()
         cb.setdropdown();
-        cb.setclickcheckboxs();
+        cb.setclickcheckboxs(); 
 })
 
     it('Radio Button', ()=>{
