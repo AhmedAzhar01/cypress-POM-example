@@ -37,7 +37,7 @@ describe('OrangeHRM', ()=>{
     it('CheckBox', ()=>{
         cy.visit("https://demoqa.com/")
         cy.contains('.card','Elements').click()
-        cy.contains('Check Box').click()
+        cy.contains('Check Box').click() 
         // cy.get('.rct-icon.rct-icon-expand-close').click()
         cb.setdropdown();
         cb.setclickcheckboxs();
