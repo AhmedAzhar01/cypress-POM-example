@@ -1,4 +1,4 @@
-export class CheckBox{
+export class checkBox{
 
     dropdown = '.rct-icon.rct-icon-expand-close';
     CheckBox = '#tree-node > ol > li > span > label > span.rct-checkbox > svg';

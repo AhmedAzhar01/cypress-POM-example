@@ -6,11 +6,11 @@ import {studentregistrationform} from "../../support/pages/student_registration_
 import {Radiobutton } from "../../support/pages/radiobutton.js"
 import { TextBox } from "../../support/pages/textbox.js"
 import { webtable } from "../../support/pages/webtables.js"
-import { CheckBox } from "../../support/pages/checkbox.js"
+import { checkBox } from "../../support/pages/checkbox.js"
 import { buttons } from "../../support/pages/Buttons.js"
 
 const tb= new TextBox()
-const cb= new CheckBox()
+const cb= new checkBox()
 const rb= new Radiobutton()
 const wb= new webtable()
 const btn= new buttons()
