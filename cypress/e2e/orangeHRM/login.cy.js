@@ -31,7 +31,7 @@ describe('OrangeHRM', ()=>{
         tb.setemail('email@gmail.com')
         tb.setCurrentAddress('DHA phase 1')
         tb.setPermanentAddress('Samanabad')
-        tb.btnsubmit();
+        tb.btnsubmit(); 
     })
 
     it('CheckBox', ()=>{
