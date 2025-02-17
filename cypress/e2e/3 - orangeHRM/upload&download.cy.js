@@ -10,6 +10,6 @@ it('UploadAndDownload', () => {
     cy.contains('.card','Elements').click()
     cy.contains('Upload and Download').click()
     uploadAndDownload.downloadFile()
-    uploadAndDownload.uploadFile()
+    uploadAndDownload.uploadandDownload()
 })
 })
