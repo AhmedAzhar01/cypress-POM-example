@@ -7,7 +7,8 @@ module.exports = defineConfig({
     },
 
      // baseUrl: "https://formstone.it/components/dropdown/demo/",
-     specPattern: "**/orangeHRM/**",
+     baseUrl: "https://demoqa.com/",
+     specPattern: "**/e2e/**",
      viewportHeight: 1480,
      viewportWidth: 1920,
   },
