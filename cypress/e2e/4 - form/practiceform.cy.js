@@ -4,7 +4,7 @@ import { StudentRegistrationForm } from "../../support/Forms/student_registratio
 const studentRegistrationForm = new StudentRegistrationForm()
 
 describe('OrangeHRM : PracticeForm', () => {
-it.only('forms', () => {
+it('forms', () => {
     cy.visit("/")
     cy.contains('.card','Elements').click()
     cy.contains('Forms').click()
