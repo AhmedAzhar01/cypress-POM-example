@@ -33,18 +33,6 @@ export class StudentRegistrationForm {
         cy.get("label[for='hobbies-checkbox-3']").click()
     }
 
-    // uploadPicture() {
-    //     cy.get('#uploadPicture').selectFile('cypress/fixtures/example.json');
-    // }
-
-    // uploadPicture() {
-    //     cy.get('#uploadPicture').selectFile('cypress/fixtures/invoice-INV-000008.pdf')
-    // }
-
-    // uploadPicture() {
-    //     cy.get('#uploadPicture').selectFile('cypress/fixtures/sampleFile.jpeg', { force: true });
-    // }
-
     uploadPicture() {
         cy.fixture('invoice-INV-000008.pdf', 'binary')
             .then(Cypress.Blob.binaryStringToBlob)
