@@ -20,3 +20,8 @@ jobs:
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+
+      - name: Run Cypress Tests
+        run: npx cypress run --headed --browser chrome --config video=false
+        
