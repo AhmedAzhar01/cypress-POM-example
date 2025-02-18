@@ -18,3 +18,12 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // Ignore specific errors if they are known and not test-breaking
+    if (err.message.includes('Script error')) {
+      return false;
+    }
+    return true; // Let Cypress fail the test for other errors
+  });
+  
